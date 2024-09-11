@@ -6,6 +6,7 @@
 
 
 Отличный вариант верстки для какого-нибудь обучающего курса! 
+
 Много анимации, движений и JavaScript! :fire: :fire: :fire:
 - кроссбраузерность :heavy_check_mark:
 - bootstrap :heavy_check_mark:
