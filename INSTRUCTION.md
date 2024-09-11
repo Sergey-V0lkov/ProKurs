@@ -2,26 +2,30 @@
 
 Скачиваем архив с githab
 
-![image](https://github.com/user-attachments/assets/190c721f-9680-4d82-a82b-b227a97aee73)
+![Screenshot_1](https://github.com/user-attachments/assets/82dd581b-07c7-41f0-b850-712dc37df2db)
+
 
  
 ## Шаг 2
 
 Разархивируем 
+![Screenshot_2](https://github.com/user-attachments/assets/4225313c-0e34-45ba-b672-1bfa291de21d)
 
-![image](https://github.com/user-attachments/assets/63543e55-f690-471b-81c7-a2bd8f6ca31a)
+
 
 ## Шаг 3
 
 В папке с проектом находим файл index.html и нажимаем на него 2 раза 
 
-![image](https://github.com/user-attachments/assets/25565daf-5b4e-4448-8298-a9677aedab54)
+
+![Screenshot_3](https://github.com/user-attachments/assets/ebe792ba-0ade-4871-ad0d-d7478c5a2875)
 
  
 ## Шаг 4
 
-Готово, в браузере откроется проект Austera
+Готово, в браузере откроется проект ProKurs
 
-![image](https://github.com/user-attachments/assets/0f207984-8677-4225-b528-5917f19a172a)
+
+![Screenshot_4](https://github.com/user-attachments/assets/91d13f0b-d145-461e-825a-715bd53fc21b)
 
 
