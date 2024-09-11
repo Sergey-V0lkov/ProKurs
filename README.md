@@ -10,6 +10,7 @@
 - bootstrap :heavy_check_mark:
 - JavaScript :heavy_check_mark:
 - JQuery :heavy_check_mark:
+
   А так же использование следующих библиотек:
 - animate (анимации) :heavy_check_mark:
 - magnific (всплывающие окна) :heavy_check_mark:
