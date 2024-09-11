@@ -1,0 +1,804 @@
+$text-color: #333; //перемсенная для цвета шрифта
+$red-color: #9b1818; //переменная для красного цвета 
+$blue-color: #003469; // переменная для синего цвета 
+$dark-color: #000; //переменная для черного цвета 
+$green-color: #67bc5c; //переменная для зеленого цвета 
+
+
+body{
+	font-family: "RobotoRegular", sans-serif;
+	color: $text-color; // используем переменную
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	-webbkit-font-smoothing: antialised;
+		overflow-x: hidden; /*это нужно что бы анимация не мешала скролу(прокрутке)*/
+
+}
+
+h1{
+	color: #fff;
+	font-family: "CleanvertisingLight", sans-serif;
+	font-size: 60px;
+	line-height: 56px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+section{
+	padding:58px 0 68px;
+	&.s_dark{
+		h2, h3, p{
+			color: #fff;
+		}
+	}
+	h2{
+		color: $blue-color;
+		font-size: 50px;
+		line-height: 56px;
+		margin-bottom: 50px;
+	}
+}
+
+/*----------------------------------------------------------------*/
+header{
+	min-height: 670px; //делаем размер фотографии 
+	background-image: url(../img/fon.jpg);
+	background-position: top center;
+	background-size: cover; // занми
+	color: #fff;
+	padding-top: 32px;
+	padding-bottom: 40px;
+
+	.logo{
+		font-size: 40px;
+		font-family: "RobotoRegular", sans-serif;
+		font-weight: bold;
+	}
+}
+
+
+.top_phone{
+	text-align: right;
+	
+
+}
+
+.tab_item{
+	display: none;
+}
+
+.tab_item:first-child{
+	display: block;
+}
+
+
+
+.top_phone .wrapper .tab{
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.top_phone .wrapper .active{
+	text-decoration: underline;
+} 
+
+.top_phone .tab_item{
+	font-size: 35px;
+	font-family: "RobotoRegular", sans-serif;
+}
+
+.ots{
+	padding-top: 180px;
+}
+
+header .top_header{ 
+	margin-top: 60px;
+	h1{
+		font-weight:normal;
+		font-family: "RobotoRegular", sans-serif;
+	}
+	h2{
+		margin:15px 0 0;
+		font-size: 36px;
+		font-family: "RobotoRegular", sans-serif;
+	}
+}
+
+
+.tabs_header{
+	margin-top: 35px;
+	.tabs{
+		span{
+			display: inline-block;
+			background-color: rgba(255,255,255, .25);
+			padding: 15px 18px;
+			text-transform: uppercase;
+			cursor: pointer;
+			float: left;
+			font-family: "RobotoRegular", sans-serif;
+			font-weight: bold;
+
+			&.active{
+				background-color: rgba(255,255,255, .6);
+				color: #000;
+			}
+		}
+	}
+
+	.tab_content{
+		background-color: rgba(255,255,255, .6);
+		padding: 12px 18px;
+		text-transform: uppercase;
+		color: #000;
+		font-family: "RobotoRegular", sans-serif;
+		font-weight: bold;
+		position: absolute;
+
+
+		.tab_item{
+			ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				li.one{
+					background-image: url(../img/zna.png);
+					background-repeat: no-repeat;
+					background-position: 14px 5px;
+				}
+				li.two{
+					background-image: url(../img/zna1.png);
+					background-repeat: no-repeat;
+					background-position: 14px 5px;
+				}
+				li.three{
+					background-image: url(../img/zna2.png);
+					background-repeat: no-repeat;
+					background-position: 14px 5px;
+				}
+				p{
+					padding:0 0 10px 50px;
+				}
+				
+			}
+		}
+
+	}
+}
+
+
+div.knop{
+	padding:  0px  15px 0 0;
+	margin: 0;
+	ul{
+		li.button{
+			background-color: #9b1818;
+
+			display: inline-block;
+			
+			text-transform: uppercase;
+			width: 230px;
+			text-align: center;
+			padding: 10px 0;
+			border-radius: 3px;
+
+			a{
+				font-size: 16px;
+				font-family: 'Roboto', sans-serif;
+				font-weight: bold;
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+
+	}
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.sec1{
+	background-color: #d5e2f2;
+	padding: 25px;
+}
+
+section.sec1 span.ten{
+	font-size: 70px;
+	font-family: "CleanvertisingLight", sans-serif;
+	color: #003469;
+	
+}
+
+section.sec1 p, section.sec1 p span.rinok{
+	font-size: 13px;
+	font-family: "CleanvertisingLight", sans-serif;
+	color: #1d4c7c;
+	text-transform: uppercase;
+}
+
+section.sec1 p span.rinok{
+	font-size: 19px;
+}
+
+section.sec1 p{
+	padding: 35px 0 0 0px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+section.sec1 span.foto1{
+	background-image: url(../img/foto1.png);
+	background-position: 0 12px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 60px;
+	height: 70%;
+}
+
+
+section.sec1 span.foto2{
+	background-image: url(../img/foto2.png) ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 55px 65px;
+	display: inline-block;
+	height: 67px;
+	width: 60px;
+}
+
+section.sec1 span.foto3{
+	background-image: url(../img/foto3.png) ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+}
+
+section.sec1 .col-md-3{
+	padding: 0;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section.sec2 h2.zag{
+	text-align: center;
+	font-size:50px;
+	font-family: "CleanvertisingLight", sans-serif;
+	font-weight: normal;
+	line-height: 56px;
+	color:#003469;
+	margin-bottom: 50px;
+	margin-top: 0;
+	
+}
+section.sec2 div.ots{
+	padding-top: 50px;
+}
+
+.fon1,.fon2,.fon3,.fon4{
+	padding-top: 10px;
+}
+
+section.sec2 .fon1{
+	background-image: url(../img/tenyears1.png);
+	background-position: 16px 14px;
+	background-repeat: no-repeat;
+}
+
+section.sec2 .fon2{
+	background-image: url(../img/tenyears2.png);
+	background-position: 16px 14px;
+	background-repeat: no-repeat;
+}
+
+
+section.sec2 .fon3{
+	background-image: url(../img/tenyears3.png);
+	background-position: 16px 14px;
+	background-repeat: no-repeat;
+}
+
+section.sec2 .fon4{
+	background-image: url(../img/tenyears4.png);
+	background-position: 16px 14px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+section.sec2 h3.op{
+	padding-left: 135px;
+	text-align: left;
+	font-size:30px;
+	font-family: 'Roboto', sans-serif;
+	color:#9b1818;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+section.sec2 p.text{
+	padding-left: 135px;
+	text-align: left;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	color:#333333;
+	height: 72px;
+
+}
+
+
+section.sec2 p.text span{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+section.sec2 div.che {
+	margin: 0px;
+	border: 4px solid #67bc5c;
+	border-radius: 5px;
+	background-color: #f7f7f7;
+	padding-left: 25px;
+}
+
+section.sec2 div.che h3{
+	margin: 0px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color: #444444;
+	text-transform: uppercase;
+	padding: 28px 0px;
+	text-align: center;
+
+}
+
+section.sec2 div.che p{
+	margin:  0px;
+	font-size: 14px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	color: #666666;
+	padding-bottom: 5px;
+}
+
+
+section.sec2 div.che input, select{
+	border:1px #d9d9d9 solid;
+	border-radius: 2px;
+	color: #666666;
+	margin-bottom: 14px;
+	width: 290px;
+}
+
+section.sec2 div.che input:focus, select:focus{
+	border:4px #67bc5c solid;
+
+}
+
+
+section.sec2 div.che input.knop{
+	border-radius: 2px;
+	background-color: #67bc5c;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	width: 220px;
+	height: 45px;
+	margin: 30px 0px 44px 35px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section.s_rewview{
+	background-image: url(../img/middle_bg.jpg);
+	background-repeat: repeat-x;
+background-attachment: fixed; //фиксируется про прокрутке
+min-height: 500px;
+background-position: top center;
+background-size: cover;
+
+
+h2.otz{
+	text-align:center;
+	font-size: 50px;
+	font-family: "CleanvertisingLight", sans-serif;
+}
+
+}
+
+
+
+.owl-carousel{
+	div.review_item1{
+		color: #fff;
+		text-align: center;
+	}
+
+	h4{
+		font-family: "Times New Roman", serif;
+		font-style: italic;
+		font-size: 22px;
+		font-weight: normal;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-right: 40px
+	}
+
+	.image_wrap{
+		text-align: center;
+		width: 165px;
+		img{
+			height: 165px;
+			display: inline-block;
+			border-radius: 50%;
+			border: #585A5B 10px solid;
+		}
+		
+	}
+	.hr{
+		width: 80px;
+		height: 1px;
+		background-color: #cea380;
+		margin: auto;	
+
+	} 
+	p{
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		padding-top: 35px;
+
+	}
+}
+
+.owl-nav{
+	div{
+		width: 34px;
+		height: 140px;
+		background-image: url(../img/a_arrows.png);
+		top:120px;
+		position: absolute;
+		&.owl-next{
+			right: 0;
+			background-position: top right;
+		}
+
+	}
+}
+
+.owl-dots{
+	width: 100%;
+	margin-top: 30px;
+	text-align:center;
+	.owl-dot{
+		 width: 14px;
+  height: 14px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 4px;
+  border-radius: 50%;
+  &.active{
+  	opacity: .8;
+    
+  }
+	}
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section.flag{
+	background-color: #9b1818;
+	padding: 0;
+}
+
+section.flag div.fon{
+	background-image: url(../img/flag.png);
+	background-repeat: no-repeat;
+	height: 250px;
+  background-size: 100% 100%;
+
+}
+
+section.flag div.fon h2{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	text-align: center;
+	text-transform:uppercase;
+	padding: 15px;
+	margin: 35px 0 10px 0;
+	background-color: rgba(255, 255, 255, 0.1 );
+ line-height: 35px;
+}
+
+
+section.flag div.knop{
+	margin-top: 20px;
+}
+
+
+
+
+section.flag div.knop ul{
+	list-style-type: none; /*убираем маркеры*/
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+
+section.flag div.knop ul li a{
+
+color: #424242;
+	background-color: #ffff;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+		font-family: 'Roboto', sans-serif;
+		text-transform:uppercase;
+		font-weight: bold;
+		height: 45px;
+		border-radius: 5px;
+		padding: 11px 30px;
+}
+
+section.flag div.knop ul li a{
+	text-decoration: none;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.s_contacts{
+	text-align: center;
+	h2{
+		color:#000;
+		display: inline-block;
+		margin: 0;
+		height: 45px;
+		line-height: 45px;
+		vertical-align: middle;
+		padding: 0 30px 0 65px;
+		font-family: "CleanvertisingLight", sans-serif;
+		font-weight: normal;
+		font-size: 50px;
+	}
+
+	.tabs{
+		display: inline-block;
+    height: 45px;
+		line-height: 20px;
+	vertical-align: middle;
+	}
+   
+
+	 .mosc, .kara {
+	display: inline-block;
+	background-color: #FFF;
+	border: 5px solid #9b1818;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #9b1818;
+	text-transform: uppercase;
+	padding:  10px 60px;
+	float: left;
+	cursor: pointer;
+  
+&:first-child{
+	border-radius: 3px 0 0 3px;
+}
+&:last-child{
+	border-radius: 0 3px 3px 0;
+}
+  &.active{
+ 	background-color: #9b1818;
+ 	color: #fff;
+
+ }
+ }
+
+.sec{
+	padding: 25px 0 0 0;
+	font-size: 18px;
+}
+
+
+
+.map{
+	margin-top: 20px;
+	min-height: 480px;
+	background-color: #e1d6b0;
+}
+
+.cent{
+	padding-left: 377px;
+	
+}
+
+.sod{
+	padding-left: 450px;
+}
+
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+footer div.zag h2{
+font-size: 50pt;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-top: 55px;
+}
+
+footer p{
+	font-size: 18pt;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #333333;
+	padding-top: 25px;
+}
+
+
+footer div.min{
+padding: 0;
+line-height: 17px;
+}
+
+footer div.min a, p.slash{
+font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #9b1818;
+}
+
+footer h2.number{
+		font-size: 35pt;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #9b1818;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+footer div.knop{
+	padding: 50px 0px 190px 0px;
+}
+
+
+
+
+
+
+
+
+
+footer div.knop ul{
+	list-style-type: none; /*убираем маркеры*/
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+
+footer div.knop ul li a{
+
+color: #fff;
+	background-color: #9b1818;
+	text-align: center;
+	display: block;
+	font-size: 16px;
+		font-family: 'Roboto', sans-serif;
+		text-transform:uppercase;
+		height: 45px;
+		padding: 11px 30px;
+}
+
+footer div.knop ul li a{
+	text-decoration: none;
+}
+
+footer .top_phone{
+	text-align: center;
+	color: #9b1818;
+
+}
+
+footer .tab_item3{
+font-size: 48px;
+}
+
+.tab_item3{
+	display: none;
+}
+
+.tab_item3:first-child{
+	display: block;
+}
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+.hidden{
+	display: none;
+	position: relative;
+}
+
+.hidden:first-child{
+	display: block;
+}
+
+.che2{
+  margin: 0px;
+  border: 4px solid #67bc5c;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  padding-left: 25px;
+}
+
+
+
+.che2 h3 {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #444444;
+  text-transform: uppercase;
+  padding: 28px 0px;
+  text-align: center;
+
+}
+
+.che2 p {
+  margin: 0px;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  padding-bottom: 5px;
+}
+
+.che2 input, select {
+  border: 1px #d9d9d9 solid;
+  border-radius: 2px;
+  color: #666666;
+  margin-bottom: 14px;
+  width: 290px;
+}
+
+.che2 input:focus, select:focus {
+  border: 4px #67bc5c solid;
+}
+
+.che2 input.knop {
+  border-radius: 2px;
+  background-color: #67bc5c;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  width: 220px;
+  height: 45px;
+  margin: 30px 0px 44px 35px;
+}
+
+
+
+
